@@ -1,0 +1,30 @@
+{
+  "name": "insta-pwa",
+  "version": "1.0.0",
+  "description": "A Hacker News Reader built using Next.JS",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "NODE_ENV=production node server.js",
+    "build": "next build"
+  },
+  "keywords": [
+    "pwa",
+    "nextjs"
+  ],
+  "author": "Ashok Raju <ashok@superabstractions.com>",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^4.1.4",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "sw-precache-webpack-plugin": "^0.11.4"
+  },
+  "devDependencies": {
+    "prop-types": "^15.6.0"
+  },
+  "engines": {
+    "node": "^9.2.0"
+  }
+}
